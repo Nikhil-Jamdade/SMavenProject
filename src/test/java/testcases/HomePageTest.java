@@ -6,6 +6,6 @@ public class HomePageTest extends BaseClass{
 	
 	@Test
 	public void test3() {
-		System.out.println("Inside test 3");
+		System.out.println("Inside test 3 - HomePageTest");
 	}
 }
