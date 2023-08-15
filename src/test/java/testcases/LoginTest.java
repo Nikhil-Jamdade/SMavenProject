@@ -26,10 +26,10 @@ public class LoginTest extends BaseClass {
 	public void test2() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.LoginFunction("nikhiljamdade05@gmail.com", "G!xXer@12");
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 	}
 
-	@Test
+	@Test(groups= {"sanity"})
 	public void test4() throws FilloException, InterruptedException {
 
 		Recordset recordset = connection.executeQuery("select * from data where TestName='test4'");
